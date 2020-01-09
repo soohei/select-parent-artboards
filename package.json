@@ -1,0 +1,23 @@
+{
+  "name": "select_parent_artboards",
+  "description": "Selects the parent artboards of the current selection",
+  "author": "Sohei Kitada",
+  "version": "1.3.0",
+  "engines": {
+    "sketch": ">=53.0"
+  },
+  "skpm": {
+    "name": "Select Parent Artboards",
+    "manifest": "src/manifest.json",
+    "main": "Select Parent Artboards.sketchplugin"
+  },
+  "scripts": {
+    "build": "skpm-build",
+    "watch": "skpm-build --watch",
+    "start": "skpm-build --watch --run",
+    "postinstall": "npm run build && skpm-link"
+  },
+  "devDependencies": {
+    "@skpm/builder": "^0.4.0"
+  }
+}
