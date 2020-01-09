@@ -1,0 +1,25 @@
+{
+  "name": "Select Parent Artboards",
+  "description": "Selects the parent artboards of the current selection",
+  "author": "Sohei Kitada",
+  "version": "1.0",
+  "identifier": "jp.theguild.sketch-plugins.selectParentArtboards",
+  "compatibleVersion": "53.0",
+  "commands": [
+    {
+      "script": "select-parent-artboards.js",
+      "shortcut": "cmd ctrl a",
+      "name": "Select Parent Artboards",
+      "identifier": "selectParentArtboards"
+    }
+  ],
+  "menu": {
+    "title": "Select Parent Artboards",
+    "isRoot": true,
+    "items": [
+      "selectParentArtboards"
+    ]
+  },
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com//master/.appcast.xml"
+}
